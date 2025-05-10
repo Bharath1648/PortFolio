@@ -1,0 +1,93 @@
+/* Section Styling */
+.about-section {
+    background-color: #E8F5E9;;
+    color: white;
+    padding: 3rem 1.5rem;
+  }
+  
+  .about-container {
+    max-width: 72rem;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #058103; /* Lime Green */
+  }
+  
+  .highlight {
+    font-weight: 600;
+    color: #2C3E50; /* Lighter Lime Green */
+  }
+  
+  /* Paragraph Styling */
+  .about-text {
+    color:black;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+  }
+  
+  /* Flex Layout for Text & Image Side-by-Side */
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  /* Image Container */
+  .profile-image-container {
+    flex-shrink: 0;
+    text-align: center;
+  }
+  
+  /* Profile Image Styling */
+  .profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #aef5c9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect for Image */
+  .profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 5px #aef5c9;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .about-title {
+      font-size: 2.25rem;
+    }
+  
+    .about-section {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  
+    .about-container {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  
+    .about-content {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .about-text-container {
+      flex: 1;
+      padding-right: 2rem;
+    }
+  
+    .profile-image-container {
+      text-align: right;
+    }
+  }
+  

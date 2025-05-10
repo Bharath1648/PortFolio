@@ -1,0 +1,42 @@
+/* Header.css */
+
+/* Container for the header */
+.header-container {
+  background-color: #1b3a32; /* Dark background for header */
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Navbar Layout */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #a9f17d; /* lime-400 */
+}
+
+/* Navigation Links Styling */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+/* Individual Link Styling */
+.nav-link {
+  font-size: 1.125rem;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #a9f17d; /* lime-400 color on hover */
+  text-decoration: underline;
+}

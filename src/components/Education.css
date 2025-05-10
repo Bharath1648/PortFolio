@@ -1,0 +1,65 @@
+body { 
+  background-color: #E8F5E9;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.education-section {
+  background-color: #E8F5E9;
+  color: #EED3B1;
+  padding: 3rem 1rem;  /* Slightly smaller padding */
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Title Styling */
+.education-title {
+  text-align: center;
+  color: #3D3D3D;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Entry Card Styling */
+.education-entry {
+  background-color: #1e3a34;
+  border-left: 5px solid #a9f17d;  /* Reduced border size */
+  padding: 1rem;                   /* Smaller padding */
+  margin-bottom: 1rem;             /* Less space between cards */
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Year Display */
+.education-year {
+  font-size: 1.1rem;
+  color: #8ddc60;
+  margin-bottom: 0.3rem;
+}
+
+/* Institute Name */
+.education-institute {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+/* Location */
+.education-location {
+  font-size: 1rem;
+  color: #cbd5e1;
+}
+
+/* Optional centering on large screens */
+@media (min-width: 768px) {
+  .education-section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}

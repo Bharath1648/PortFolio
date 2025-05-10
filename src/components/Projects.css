@@ -1,0 +1,69 @@
+/* Projects.css */
+
+/* Container Styles */
+#projects {
+    background-color: #132d24;
+    padding: 2rem;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000; /* lime-400 */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Grid Layout */
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Project Card Styles */
+  .project-card {
+    background-color: #1e3a34;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 4px 12px rgba(34, 197, 94, 0.6); /* lime-400 shadow */
+  }
+  
+  /* Image Styling */
+  .project-card img {
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+    height: 10rem;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  /* Project Title */
+  .project-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #a9f17d; /* lime-300 */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Description Styling */
+  .project-card p {
+    color: #e5e7eb; /* gray-300 */
+  }
+  

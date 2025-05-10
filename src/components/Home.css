@@ -1,0 +1,133 @@
+/* Home Section */
+.home-section {
+  background-color: #132d24;
+  color: white;
+  padding: 4rem 2rem;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Text Section */
+.home-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+/* Typewriter Effect for IT Graduate */
+.animated-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #EFE3C2;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #76f1c5;
+  animation: typewriter 4s steps(12) 1s forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 10ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.home-description {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #e5e7eb;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+.home-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #a9f17d;
+  color: #132d24;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8ddc60;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid #a9f17d;
+  color: #a9f17d;
+}
+
+.btn.secondary:hover {
+  background-color: #a9f17d;
+  color: #132d24;
+}
+
+/* Image Section */
+.home-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+  position: relative;
+}
+
+/* Profile Image (Rounded like Envato template) */
+.profile-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Decorative Shapes */
+.shape {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #a9f17d;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.shape1 {
+  top: 10%;
+  right: 20%;
+  transform: rotate(15deg);
+}
+
+.shape2 {
+  bottom: 10%;
+  left: 20%;
+  transform: rotate(-15deg);
+}
